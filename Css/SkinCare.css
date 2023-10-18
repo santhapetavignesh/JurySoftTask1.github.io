@@ -625,6 +625,9 @@ footer img{
 .footer-ul{
     display: inline-flex;
 }
+footer a{
+    color: black;
+}
 @media (max-width: 300px) {
     nav img{
         margin-top: 10px;   
