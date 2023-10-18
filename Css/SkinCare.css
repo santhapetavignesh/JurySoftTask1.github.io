@@ -738,12 +738,14 @@ footer a{
         background-color: rgb(237, 227, 210);
     }
     .nav-stage-300{
-        height: 20%;
+        margin-top: 5%;
+        height: 30%;
         grid-column:2/3 ;
        grid-row:2/3;
     }
     .nav-stage-400{
-        height: 35%;
+        margin-top: 5%;
+        height: 45%;
         grid-column:2/3 ;
         grid-row:3/4 ;
     }

@@ -325,13 +325,14 @@ function displayvalue(){
  if(value.checked){
     document.getElementById("display").style.display="block"
     document.getElementById("display1").style.display="block"
-    document.getElementById("section1-h1").style.opacity=0.2
+    document.getElementById("section1-h1").style.visibility="hidden"
  }
  else{
   document.getElementById("display").style.display="none"
     document.getElementById("display1").style.display="none"
-    document.getElementById("section1-h1").style.opacity=100;
+    document.getElementById("section1-h1").style.visibility="visible";
  }
+
 }
 </script>
 </html>
