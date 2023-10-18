@@ -30,9 +30,9 @@
                 <!-- header ending -->
 
                 <!-- Section1  starting  Revolutionise skincare-->
-          <section class="section1" >
+          <section class="section1" id="section1">
             <div class="section1-block1">
-              <h1 id="section1-h1">"Revolutionise <br>Your Skin and Hair <br> Care with <br>SkinoCare."</h1>
+              <h1 >"Revolutionise <br>Your Skin and Hair <br> Care with <br>SkinoCare."</h1>
               <p>"Acess a well-rounded skincare routine, expertly designed through the fusion of <br class="section1-p1">dermatolosist knowledge and Ai technology"</p>
               <a href="#nav"><button><p>Download App</p><span><i class='bx bx-right-top-arrow-circle'></i><span></button></a>
             </div>
@@ -325,12 +325,14 @@ function displayvalue(){
  if(value.checked){
     document.getElementById("display").style.display="block"
     document.getElementById("display1").style.display="block"
-    document.getElementById("section1-h1").style.visibility="hidden"
+    document.getElementById("section1").style.visibility="hidden"
+    document.getElementById("section1").style.height="200px"
  }
  else{
   document.getElementById("display").style.display="none"
     document.getElementById("display1").style.display="none"
-    document.getElementById("section1-h1").style.visibility="visible";
+    document.getElementById("section1").style.visibility="visible";
+    document.getElementById("section1").style.height="483px"
  }
 
 }
